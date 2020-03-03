@@ -1,0 +1,12 @@
+Package: shinycsps
+Title: shiny People Survey
+Version: 0.0.0.9000
+Authors@R: person('David', 'Lee', email = 'david@lee269.co.uk', role = c('cre', 'aut'))
+Description: Exploring survey data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny, 
+    golem
+RoxygenNote: 6.1.0
