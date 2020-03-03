@@ -5,7 +5,11 @@ app_ui <- function() {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("shinycsps")
+      h1("shinycsps"),
+      # mod_question_select_ui("question_select_ui_1"),
+      # mod_test_text_ui("test_text_ui_1"),
+      mod_core_question_select_ui("core_question_select_ui_1")
+      
     )
   )
 }
