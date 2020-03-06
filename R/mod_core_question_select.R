@@ -18,10 +18,11 @@ mod_core_question_select_ui <- function(id){
   
   
   questions <- shinycsps::core_questions %>% 
+    dplyr::select(text, question) %>% 
     tibble::deframe()
   
   tagList(
-    selectInput(inputId = ns("core_questions"), label = "select question", choices = questions)
+    selectInput(inputId = ns("core_questions"), label = "select question", choices = questions, multiple = TRUE)
   )
 }
     

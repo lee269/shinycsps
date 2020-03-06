@@ -1,0 +1,40 @@
+question,text
+H1A_region,H1A. Where in England do you usually work? (region)
+H1A,H1A. Where in England do you usually work? (location)
+H1B_region,H1B. Where in Scotland do you usually work? (region)
+H1B,H1B. Where in Scotland do you usually work? (location)
+H1C_region,H1C. Where in Wales do you usually work? (region)
+H1C,H1C. Where in Wales do you usually work? (location)
+H1D,H1D. Where in Northern Ireland do you usually work? (location)
+H02,H02. How long have you worked... in your current job?
+H03,H03. How long have you worked... for [your organisation] or its predecessor(s)?
+H04,H04. How long have you worked... for the Civil Service?
+H05,H05. Do you manage any other employees?
+H06,H06. Do you work... (FT/PT/JS)
+H07,H07. Which of the following statements best describes your employment status?
+H08,H08. Which of the following occupational or professional groups most accurately reflects the type of work you do in your main job?
+H8A,H8A. Are you a member of an organised cross-government professional community?
+J01,J01. What is your gender identity?
+J01A,"J01A. At birth, were you assigned... (M/F/PNS)"
+J02,J02. What is your age?
+J03,J03. What is your ethnic group?
+J04,"J04. Do you have any long-standing physical or mental health condition, illness, impairment or disability?"
+J04A,"J04A. Does this condition, illness or disability have an impact on your daily activity or the work you can do?"
+J04B,"J04B. In general, how would you rate your overall mental health now?"
+J04C,J04C. Do you have the Workplace Adjustments you need to do your job?
+J05,"J05. Do you look after or give help or support to any family members, friends, neighbours or others who have a long-term physical or mental illness or disability, or problems related to old age?"
+J06,J06. Do you have childcare responsibilities as a primary care giver (e.g. parent/guardian)?
+J07,J07. Which of the following phrases best describes how you think of yourself?
+J08,J08. What is your religion?
+Z01,CS Equivalent Grades - full
+Z02,CS Equivalent Grades - grouped
+Z03,Non SCS/SCS
+Z05,Ethnicity - grouped
+Z06,Ethnic Minority/White
+Z07,Segmentation
+Z08,"Limiting long-term illness, disability or health condition"
+Z09,Severity of health condition
+Z10,Sexual Orientation - grouped
+Z11,Cis/Trans men and women
+Z12,Cisgender/transgender
+Z15,Age - major groups

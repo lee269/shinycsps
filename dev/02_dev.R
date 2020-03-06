@@ -10,6 +10,9 @@
 golem::add_module( name = "question_select" ) # Name of the module
 golem::add_module( name = "core_question_select" ) # Name of the module
 golem::add_module( name = "test_text" ) # Name of the module
+golem::add_module( name = "core_question_chart")
+golem::add_module( name = "attribute_select")
+
 
 ## 2.2 Add dependencies
 

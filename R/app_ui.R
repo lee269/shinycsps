@@ -1,15 +1,29 @@
 #' @import shiny
 app_ui <- function() {
+  
+
+# UI elements -------------------------------------------------------------
+
+  control_section <- column(width = 3,
+                            mod_attribute_select_ui("attribute_select_ui_1"),
+                            mod_core_question_select_ui("core_question_select_ui_1")                    
+                            )
+  
+  main_section <- column(width = 9,
+                         mod_core_question_chart_ui("core_question_chart_ui_1")
+                         )
+  
+
+# Main dashboard ----------------------------------------------------------
+
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("shinycsps"),
-      # mod_question_select_ui("question_select_ui_1"),
-      # mod_test_text_ui("test_text_ui_1"),
-      mod_core_question_select_ui("core_question_select_ui_1")
-      
+      titlePanel("shinycsps"),
+      control_section,
+      main_section
     )
   )
 }
