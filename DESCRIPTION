@@ -13,5 +13,6 @@ Imports:
     DT,
     glue,
     htmltools,
-    magrittr
+    magrittr,
+    pkgload
 RoxygenNote: 7.0.2
