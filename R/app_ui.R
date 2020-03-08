@@ -14,6 +14,11 @@ app_ui <- function() {
                          mod_core_question_chart_ui("core_question_chart_ui_1")
                          )
   
+  navlist <- navlistPanel(
+                          "Core questions",
+                          tabPanel("drilldown", control_section, main_section)
+  )
+  
 
 # Main dashboard ----------------------------------------------------------
 
