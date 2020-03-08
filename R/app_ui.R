@@ -5,6 +5,7 @@ app_ui <- function() {
 # UI elements -------------------------------------------------------------
 
   control_section <- column(width = 3,
+                            mod_ou_select_ui("ou_select_ui_1"),
                             mod_attribute_select_ui("attribute_select_ui_1"),
                             mod_core_question_select_ui("core_question_select_ui_1")                    
                             )

@@ -17,11 +17,18 @@ mod_core_question_chart_ui <- function(id){
 #' core_question_chart Server Function
 #'
 #' @noRd 
-mod_core_question_chart_server <- function(input, output, session, question, attribute){
+mod_core_question_chart_server <- function(input, output, session, oucode, question, attribute){
   ns <- session$ns
   
+  oudata <- reactive({ 
+    ou_data(data = shinycsps::all_defra_2019,
+                    hierarchy = shinycsps::all_defra_2019_hierarchy, 
+                    hierarchy_meta = shinycsps::all_defra_2019_hierarchy_metadata,
+                    oucode = oucode())
+  })
+  
  output$question_chart <- renderPlot(
-   question_facet_plot(data = shinycsps::all_defra_2019,
+   question_facet_plot(data = oudata(),
                        questions = unlist(strsplit(question(), split = " ")),
                        facet = attribute())
  )
