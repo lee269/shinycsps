@@ -13,7 +13,7 @@ golem::add_module( name = "test_text" ) # Name of the module
 golem::add_module( name = "core_question_chart")
 golem::add_module( name = "attribute_select")
 golem::add_module( name = "ou_select")
-
+golem::add_module( name = "engagement_facet_chart")
 
 ## 2.2 Add dependencies
 
